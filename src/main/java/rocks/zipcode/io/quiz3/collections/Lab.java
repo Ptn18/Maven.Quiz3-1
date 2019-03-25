@@ -1,9 +1,12 @@
 package rocks.zipcode.io.quiz3.collections;
 
+import java.util.Map;
+
 /**
  * @author leon on 10/12/2018.
  */
 public class Lab {
+    private Map<String, LabStatus> entries;
     public Lab() {
         this(null);
     }
